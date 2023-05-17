@@ -13,12 +13,12 @@ nav {
     width: 100%;
 }
 
-li{
+li {
     float: left;
     border-left: 1px solid #FE922F;
 }
 
-li a{
+li a {
     display: block;
     color: #FE922F;
     padding-left: 14px ;
@@ -41,8 +41,7 @@ li a:hover {
 }
 
 .logo {
-    border-radius: 50px;
-     
+    border-radius: 50px;  
 }
 
 body {
@@ -50,4 +49,25 @@ body {
     padding: 0px;
     background-color: #363C33;
 }
+
+.test {
+    margin-top: 100px;
+}
+
+footer {
+    background: linear-gradient(#191A18 70%, #FE922F 30%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 30px;
+}
+
+.credit {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 5px;
+
+}
+
 

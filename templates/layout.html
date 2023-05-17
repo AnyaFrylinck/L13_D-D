@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>CharacterForge</title>
-    <link rel="icon" href="/static/images/logo-image.png" type="image/x-icon">
-    <link rel="stylesheet" href="static/style.css">
-</head>
-<nav>
-    <div class="logo"><img src="/static/images//Logo.png"></div>
-    <li><a href = "/">Home</a></li>
-    <li><a href = "https://en.wikipedia.org/wiki/Character_class_(Dungeons_%26_Dragons)">Class</a></li>
-    <li><a href = "https://dndraces.com/">Race</a></li>
-    <li><a href = "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons">Info</a></li>
-    
-</nav>
 
-<body>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>CharacterForge</title>
+        <link rel="icon" href="/static/images/logo-image.png"
+            type="image/x-icon">
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo"><img src="/static/images//Logo.png"></div>
+                <li><a href="/">Home</a></li>
+                <li><a
+                        href="https://en.wikipedia.org/wiki/Character_class_(Dungeons_%26_Dragons)">Class</a></li>
+                <li><a href="https://dndraces.com/">Race</a></li>
+                <li><a
+                        href="https://en.wikipedia.org/wiki/Dungeons_%26_Dragons">Info</a></li>
+            </div>
+        </nav>
+    </header>
+
     {% block content %} {% endblock %}
-    
+    <span class="test">hello</span>
+
+
+    <footer>
+        <a href="">
+            <img src="/static/images/instagram.svg" alt="">
+            <img
+        </a>
+        <div class="credit">created by Anya Frylinck</div>
+    </footer>
 </body>
 </html>
