@@ -2,9 +2,9 @@
 nav {
     list-style-type: none;
     margin-left: 0;
-    padding-left: 10px;
+    padding-left: 1%;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 1%;
     background-color: #191A18;
     overflow: hidden;
     border-radius: 3px;
@@ -41,29 +41,35 @@ li a:hover {
 }
 
 .logo {
-    border-radius: 50px;  
+    border-radius: 30rem;  
 }
 
 body {
     margin: 0;
-    padding: 0px;
+    padding: 0%;
     background-color: #363C33;
+    height: 100%;
 }
 
 .test {
     margin-top: 100px;
 }
 
-footer {
-    background: linear-gradient(#191A18 70%, #FE922F 30%);
-    position: fixed;
-    bottom: 0;
+.top-footer{
+    background-color: #191A18;
     width: 100%;
-    left: 0;
-    padding: 30px;
+    padding: 2%;
+}
+
+
+.bottom-footer {
+    background-color: #FE922F;
+    width: 100%;
+    padding: 1%;
 }
 
 .credit {
+    text-align: center;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     padding-bottom: 5px;
