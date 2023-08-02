@@ -2,20 +2,18 @@
 nav {
     list-style-type: none;
     margin-left: 0;
-    padding-left: 1%;
-    padding-top: 30px;
+    padding-top: 1%;
     padding-bottom: 1%;
     background-color: #191A18;
     overflow: hidden;
-    border-radius: 3px;
-    position: fixed;
-    top: 0;
+    border-radius: 3%;
     width: 100%;
 }
 
 li {
-    float: left;
+    float: right;
     border-left: 1px solid #FE922F;
+    
 }
 
 li a {
@@ -40,8 +38,9 @@ li a:hover {
     color: white
 }
 
-.logo {
-    border-radius: 30rem;  
+.logo img {
+    padding: 1%;
+    border-radius: 3%;  
 }
 
 body {
@@ -58,14 +57,17 @@ body {
 .top-footer{
     background-color: #191A18;
     width: 100%;
-    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 3%;
 }
 
 
 .bottom-footer {
     background-color: #FE922F;
     width: 100%;
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .credit {
@@ -73,7 +75,26 @@ body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     padding-bottom: 5px;
-
 }
 
-
+/* create bottun */
+.create_button {
+    border-radius: 10%;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    padding: 1%;
+    background-color: #FE922F;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .create_button:hover {
+    background: #191A18;
+    color: #FE922F;
+    border: solid #FE922F 1;
+    border-radius: 10%;
+    text-decoration: none;
+ }
